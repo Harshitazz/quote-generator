@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px red solid;
+    height: 100vh;
+    background: url(pic1.webp) no-repeat center center/ cover;
+
+}
+.container{
+    text-align: center;
+}
+.header{
+    border:3px rgb(241, 235, 235) solid ;
+    width:40vw;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius:20px;
+    color: aliceblue;
+    background-color: black;
+}
+h2{
+    
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+}
+.main-content{
+    height: 35vh;
+    border:3px rgb(249, 250, 251) solid ;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 50px;
+    background-color: rgb(248, 234, 206);
+    width:50vw;
+    box-shadow: 0 0 10px;
+}
+.person{
+    font-size: 1.5rem ;
+    color: red;
+    padding: 5px;
+    text-transform: uppercase;
+}
+#new-quote{
+    background-color: black;
+    color: azure;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    border-radius: 5px;
+    padding: 5px;
+}
+.button-area button:active{
+    background-color: lightblue;
+}
+.button-area button:hover{
+    cursor: pointer;
+}
