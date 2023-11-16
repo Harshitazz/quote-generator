@@ -31,4 +31,7 @@ btn.addEventListener('click',function(){
     let random= Math.floor(Math.random() * quotes.length);
     quote. innerHTML=quotes[random].quote;
     person.innerHTML=quotes[random].person;
-})
+});
+server.listen(3000 ,"0.0.0.0", function () {
+    console.log("Server Connected");
+});
